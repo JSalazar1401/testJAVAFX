@@ -18,6 +18,7 @@ public class App extends Application {
             stage.show();
         } catch (IOException e) {
             System.err.println("No se encontro el archivo a cargar :C");
+            e.printStackTrace();
         }
     }
 

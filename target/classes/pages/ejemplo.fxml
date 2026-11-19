@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
 <VBox 
 spacing="15"
 alignment = "CENTER"
+xmlns:fx="http//javafx.com/fxml/1"
+fx:controller="com.ejemplo.controllers.MainController"
 >
-<Label text="Texto de prueba Uwu"/>
-<Button text="Tocame :3" />
+  <Label text="Texto de prueba Uwu"/>
+  <Button text="Tocame :3" onAction="#saludar"/>
 </VBox>

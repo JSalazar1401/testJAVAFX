@@ -1,3 +1,4 @@
 com\ejemplo\App.class
 module-info.class
+com\ejemplo\controllers\MainController.class
 com\ejemplo\SystemInfo.class
